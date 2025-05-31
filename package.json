@@ -1,25 +1,68 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "moders",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "dayjs": "^1.11.6",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-beta.3",
+    "@mui/x-date-pickers-pro": "^5.0.0-beta.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "date-fns": "^2.29.1",
+    "dayjs": "^1.11.4",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "fetch": "^1.1.0",
-    "jsonwebtoken": "^8.5.1",
+    "graceful-fs": "^4.2.10",
+    "http": "^0.0.1-security",
+    "inspector": "^0.5.0",
+    "luxon": "^2.5.0",
     "moment": "^2.29.4",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3",
-    "node-fetch": "^3.2.9",
-    "util": "^0.12.4"
-  }
+    "node-fetch": "^3.2.6",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dimmer": "^1.0.7",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^5.3.5",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.4",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://127.0.0.1:3001"
 }

@@ -1,0 +1,12 @@
+.remove_modal_info input {
+    width: 500px;
+    color: white;
+}
+
+.remove_modal_info label {
+    color: white;
+}
+
+.remove_modal_info fieldset {
+    border-color: rgba(199, 197, 197, 0.23);
+}

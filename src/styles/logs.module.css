@@ -1,0 +1,31 @@
+.logs_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logs_box_title {   
+    padding-bottom: 25px;
+}
+
+.logs_box_title span {
+    color: white;
+    font-size: xx-large;
+}
+
+.logs_box_content {
+    width: 99%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.logs_box_content nav {
+    margin-top: 10px;
+    float: right;
+}
+
+.logs_box_content nav button {
+    color: white;
+}

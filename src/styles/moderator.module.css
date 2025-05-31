@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_box {
+    padding: 20px;
+    width: 100%;
+}
+
+.moder_nick {
+    max-width: 700px;
+    height: 60px;
+    display: block;
+}
+
+.moder_nick h4 {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    width: 1000px;
+    height: 60px;
+}
+
+.box_data {
+    display: flex;
+    width: 100%;
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.moder_buttons {
+    width: 100%;
+}
+
+.edit_button {
+    padding: 15px;
+    width: 200px;
+    float: right;
+}
+
+.moder_info {
+    max-width: 100%;
+    display: flex;
+}
+
+.moder_info_full {
+    margin-left: 20px;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+button.MuiTab-root {
+    color: gray;
+}
+
+.CircleProgress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+}
+

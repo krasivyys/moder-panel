@@ -1,0 +1,22 @@
+.acrhive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.acrhive_box {
+    border: 1px gray solid;
+    padding: 20px;
+    background-color: #272727;
+    width: 1200px;
+}
+
+.search_input input {
+    width: 300px;
+}
+
+.acrhive_box_content {
+    padding-top: 20px;
+}

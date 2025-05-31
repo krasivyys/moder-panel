@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding-bottom: 50px;
+}
+
+.main_navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #272727;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.burger_btn {
+    margin-left: 20px;
+    margin-top: 45px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.button {
+    margin-top: 48px;
+    color: white;
+    cursor: pointer;
+    width: 85%;
+    display: flex;
+    justify-content: right;
+}
+
+.logout_button {
+    float: right;
+}
+
+.nav_title {
+    margin-top: 45px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.nav_title_button:hover a{
+    color: white;
+}
+
+.nav_title_button a {
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.burger_btn:hover {
+    background-color: #494848;
+    border-radius: 30px;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    left: 0;
+    transform: translateX(-120%);
+    transition: all 0.5s;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.blur {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    left: 19.8%;
+}
+
+.menu__content {
+    width: 19.8%;
+    height: 100%;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999;
+}
+
+.menu_list_item a {
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    flex-direction: row;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_list_item {
+    width: 380px;
+
+}
+
+
+.menu_list_icon {
+    margin-right: 32px;
+}
+
+.menu_list_item:hover {
+    background-color: #706d6d;
+}
+
+.menu__header {
+    font-size: 2rem;
+    padding: 10px;
+    color: wheat;
+    border-bottom: 1px solid wheat;
+    width: 100%;
+    text-align: center;
+}

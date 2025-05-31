@@ -1,0 +1,54 @@
+.add_moderator_form {
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: #202124;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+.add_moderator_form_head {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.add_moderator_form_body {
+    justify-content: center;
+    align-items: center;
+}
+
+.add_moderator_form_head_title {
+    padding: 20px;
+}
+
+.add_moderator_form_head_title span {
+    color: white;
+}
+
+.edit_modal_content_form_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.edit_modal_content_form_item {
+    padding: 10px;
+}
+
+.edit_modal_content_form_item input {
+    color: white;
+}
+
+.edit_modal_content_form_item label {
+    color: gray;
+}
+
+.button {
+    padding: 20px;
+    margin-left: 120px;
+}

@@ -1,0 +1,28 @@
+.inactive_modal_form input {
+    color: white
+}
+
+.inactive_modal_form label {
+    color: gray
+}
+
+.inactive_modal_form_date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inactive_modal_form_date_item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.inactive_modal_form_date_item fieldset {
+    border-color: gray;
+}
+
+.inactive_modal_form_date_item p {
+    color: white
+}

@@ -1,0 +1,44 @@
+.edit_modal_title h6 {
+    font-weight: 900;
+}
+
+.edit_modal_content_form {
+    background-color: #272727;
+    color: 'white';
+    width: 600;
+}
+
+.edit_modal_content_form_item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.edit_modal_content_form_row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.edit_modal_content_form label {
+    color: #b7b4b4
+}
+
+.edit_modal_content_form input {
+    color: white;
+    width: 250px;
+}
+
+.edit_modal_content_form fieldset {
+    border-color: rgba(199, 197, 197, 0.23);
+}
+
+.advanced_prev {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advanced_prev_title {
+    font-size: larger;
+    color: rgb(165, 164, 164);
+}

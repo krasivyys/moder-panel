@@ -1,0 +1,19 @@
+.auth_page_block {
+    color: white; 
+    background-color: #272727; 
+    /* margin-top: 290px; 
+    margin-left: 700px; */
+    position: absolute;
+    top: 30%;
+    border: 1px gray solid;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.auth_page_title {
+    padding: 10px;
+}
+
+.auth_page_title span {
+    font-size: x-large;
+}

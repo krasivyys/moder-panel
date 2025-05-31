@@ -1,0 +1,51 @@
+.main_box {
+    padding: 20px;
+    width: 100%;
+}
+
+.moder_nick {
+    /* max-width: 700px; */
+    height: 60px;
+    display: block;
+}
+
+.box_data {
+    display: flex;
+    width: 100%;
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.moder_buttons {
+    width: 100%;
+}
+
+.edit_button {
+    padding: 15px;
+    width: 200px;
+    float: right;
+}
+
+.moder_info {
+    max-width: 100%;
+    display: flex;
+}
+
+.moder_info_full {
+    margin-left: 20px;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.moder_card {
+    width: 300;
+    height: 626px;
+    background-color: #1e1e1e;
+}
+
+.moder_info_full {
+    width: 1510px;
+    height: 626px;
+    background-color: #1e1e1e;
+}

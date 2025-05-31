@@ -1,0 +1,34 @@
+.box_list, .box_info {
+    max-width: 350px;
+    padding-bottom: 10px;
+}
+
+.box_list_item {
+    display: flex;
+}
+
+.box_list_item_content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_list_item_content a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.box_list_item_content span, .box_info_subtitle {
+    color: gray;
+} 
+
+.box_info_title {
+    font-size: 20px;
+}
+
+.box_list_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

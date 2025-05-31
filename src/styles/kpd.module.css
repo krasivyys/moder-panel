@@ -1,0 +1,22 @@
+.kpd_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kpd_box_title {
+    padding-bottom: 25px;
+}
+
+.kpd_box_title span {
+    color: white;
+    font-size: xx-large;
+}
+
+.kpd_box_content {
+    width: 99%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
